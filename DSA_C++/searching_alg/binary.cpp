@@ -3,7 +3,7 @@
 using  namespace std;
 int main(){
     vector <int> arr ={1,2,3,4,5,6};
-    int target = 2;
+    int target = 55;
     int low=0;
     int high=arr.size()-1;
     while(low <=high){
@@ -16,9 +16,10 @@ int main(){
            low =mid +1;
         }
         
-        else{
+        else if (arr[mid]>target){
             high=mid -1;
         }
+        
         
         
 
