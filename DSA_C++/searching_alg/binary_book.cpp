@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-bool isvalid (vector<int> &arr ,int n,int m,int maxAllowedPages){
+bool isvalid (vector<int> & arr ,int n,int m,int maxAllowedPages){
     int students=1,pages=0;
     for (int i=0;i<n;i++){
         if (arr[i]>maxAllowedPages){
