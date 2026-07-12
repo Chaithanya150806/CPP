@@ -3,7 +3,10 @@
 using namespace std;
 int main(){
     string alp ="ABCDEFGHIJJKLMNOPQRTUVWXYZ";
-    cout << alp.length() ;
+    cout << "length of alp :"<<alp.length() <<endl;
+    cout << "size   of alp :"<<alp.size() ;
+
+
 
     return 0;
 }
