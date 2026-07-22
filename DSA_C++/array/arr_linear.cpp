@@ -5,7 +5,7 @@ int main(){
     int target =5;
     for (int i=0;i<10;i++){
         if (num[i]==target){
-            cout <<"found at"  << i <<endl;
+            cout <<"found at index "  << i <<endl;
         }
        
         
