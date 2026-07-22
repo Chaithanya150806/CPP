@@ -7,7 +7,6 @@ int main(){
     int size=6;
     int smallest = INT_MAX;
     int largest  = INT_MIN;
-    
 
     for (int i = 0 ; i <=size ; i++){
         if (num[i]<smallest){
@@ -15,15 +14,7 @@ int main(){
         }
          largest =max(num[i],largest);//smallest =min(num[i],smallest);
          
-
-    
         }
-        
-
-           
-           
-
-    
     cout <<"smallest num = "<<smallest <<endl;
     cout <<"largest num = "<<largest <<endl;
 
