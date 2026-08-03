@@ -9,7 +9,7 @@ int main(){
             cout << "Zero is not even or odd number\n";
             
     }
-     else if (number %2 ==0 ){ //(number & 1)==0 //in bit 
+     else if (number %2 ==0 ){ //(number & 1)==0 ---------//in bit (coa)
         cout << "it is even number :" <<number << endl;
          }
          
