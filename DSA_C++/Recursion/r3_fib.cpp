@@ -8,6 +8,6 @@ int fib(int n){
     return fib(n-1)+fib(n-2);
 }
 int main(){
-    fib(5);
+   cout << fib(6);
     return 0;
 }
