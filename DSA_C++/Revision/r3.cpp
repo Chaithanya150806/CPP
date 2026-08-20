@@ -6,10 +6,7 @@ void r1(int reg,string name,int marks){
 }
 int main(){
     r1(303,"chaithanya",83);
-    
 
-
-  
    
     
     return 0;
